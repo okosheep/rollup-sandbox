@@ -1,3 +1,3 @@
-const foo = new Date()
+import { Print } from "./print"
 
-console.log(`Hello World in ${foo}`)
+Print()
