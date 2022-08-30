@@ -1,2 +1,3 @@
-console.log("Hello World");
+const foo = new Date()
 
+console.log(`Hello World in ${foo}`)

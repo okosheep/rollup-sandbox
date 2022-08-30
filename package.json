@@ -6,6 +6,7 @@
     "clean": "rimraf dist"
   },
   "devDependencies": {
+    "prettier": "^2.7.1",
     "rimraf": "^3.0.2",
     "rollup": "^2.78.1",
     "rollup-plugin-typescript2": "^0.33.0",
