@@ -14,7 +14,6 @@ export default {
       format: "es",
     },
   ],
-  external: require("./package.json").dependencies || [],
   plugins: [
     typescript({
       tsconfigOverride: {
