@@ -1,0 +1,14 @@
+{
+  "module": "es2015",
+  "private": true,
+  "scripts": {
+    "compile": "rollup -c",
+    "clean": "rimraf dist"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "rollup": "^2.78.1",
+    "rollup-plugin-typescript2": "^0.33.0",
+    "typescript": "^4.8.2"
+  }
+}
