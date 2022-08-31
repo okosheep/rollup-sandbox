@@ -1,3 +1,1 @@
-import { Print } from "./print"
-
-Print()
+import('./print').then(({ Print }) => Print()).catch(e => console.error(e))
