@@ -1,7 +1,6 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@rollup/plugin-commonjs': ^22.0.2
   '@rollup/plugin-node-resolve': ^13.3.0
   crypto-js: ^4.1.1
   prettier: ^2.7.1
@@ -14,7 +13,6 @@ dependencies:
   crypto-js: 4.1.1
 
 devDependencies:
-  '@rollup/plugin-commonjs': 22.0.2_rollup@2.78.1
   '@rollup/plugin-node-resolve': 13.3.0_rollup@2.78.1
   prettier: 2.7.1
   rimraf: 3.0.2
@@ -23,22 +21,6 @@ devDependencies:
   typescript: 4.8.2
 
 packages:
-
-  /@rollup/plugin-commonjs/22.0.2_rollup@2.78.1:
-    resolution: {integrity: sha512-//NdP6iIwPbMTcazYsiBMbJW7gfmpHom33u1beiIoHDEM0Q9clvtQB1T0efvMqHeKsGohiHo97BCPCkBXdscwg==}
-    engines: {node: '>= 12.0.0'}
-    peerDependencies:
-      rollup: ^2.68.0
-    dependencies:
-      '@rollup/pluginutils': 3.1.0_rollup@2.78.1
-      commondir: 1.0.1
-      estree-walker: 2.0.2
-      glob: 7.2.3
-      is-reference: 1.2.1
-      magic-string: 0.25.9
-      resolve: 1.22.1
-      rollup: 2.78.1
-    dev: true
 
   /@rollup/plugin-node-resolve/13.3.0_rollup@2.78.1:
     resolution: {integrity: sha512-Lus8rbUo1eEcnS4yTFKLZrVumLPY+YayBdWXgFSHYhTT2iJbMhoaaBL3xl5NCdeRytErGr8tZ0L71BMRmnlwSw==}
@@ -77,10 +59,6 @@ packages:
 
   /@types/estree/0.0.39:
     resolution: {integrity: sha512-EYNwp3bU+98cpU4lAWYYL7Zz+2gryWH1qbdDTidVd6hkiR6weksdbMadyXKXNPEkQFhXM+hVO9ZygomHXp+AIw==}
-    dev: true
-
-  /@types/estree/1.0.0:
-    resolution: {integrity: sha512-WulqXMDUTYAXCjZnk6JtIHPigp55cVtDgDrO2gHRwhyJto21+1zbVCtOYB2L1F9w4qCQ0rOGWBnBe0FNTiEJIQ==}
     dev: true
 
   /@types/node/18.7.14:
@@ -226,12 +204,6 @@ packages:
     resolution: {integrity: sha512-51ypPSPCoTEIN9dy5Oy+h4pShgJmPCygKfyRCISBI+JoWT/2oJvK8QPxmwv7b/p239jXrm9M1mlQbyKJ5A152g==}
     dev: true
 
-  /is-reference/1.2.1:
-    resolution: {integrity: sha512-U82MsXXiFIrjCK4otLT+o2NA2Cd2g5MLoOVXUZjIOhLurrRxpEXzI8O0KZHr3IjLvlAH1kTPYSuqer5T9ZVBKQ==}
-    dependencies:
-      '@types/estree': 1.0.0
-    dev: true
-
   /jsonfile/6.1.0:
     resolution: {integrity: sha512-5dgndWOriYSm5cnYaJNhalLNDKOqFwyDB/rr1E9ZsGciGvKPs8R2xYGCacuf3z6K1YKDz182fd+fY3cn3pMqXQ==}
     dependencies:
@@ -245,12 +217,6 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       p-locate: 4.1.0
-    dev: true
-
-  /magic-string/0.25.9:
-    resolution: {integrity: sha512-RmF0AsMzgt25qzqqLc1+MbHmhdx0ojF2Fvs4XnOqz2ZOBXzzkEwc/dJQZCYHAn7v1jbVOjAZfK8msRn4BxO4VQ==}
-    dependencies:
-      sourcemap-codec: 1.4.8
     dev: true
 
   /make-dir/3.1.0:
@@ -364,10 +330,6 @@ packages:
   /semver/6.3.0:
     resolution: {integrity: sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw==}
     hasBin: true
-    dev: true
-
-  /sourcemap-codec/1.4.8:
-    resolution: {integrity: sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==}
     dev: true
 
   /supports-preserve-symlinks-flag/1.0.0:

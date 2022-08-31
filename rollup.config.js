@@ -1,6 +1,5 @@
 import typescript from "rollup-plugin-typescript2"
 import nodeResolve from "@rollup/plugin-node-resolve"
-import commonjs from "@rollup/plugin-commonjs"
 
 export default {
   input: ["./lib/index.ts"],
@@ -8,7 +7,7 @@ export default {
     {
       dir: "dist",
       exports: "auto",
-      format: "esm"
+      format: "cjs"
     }
   ],
   preserveEntrySignatures: false,
@@ -16,6 +15,5 @@ export default {
   plugins: [
     typescript(),
     nodeResolve(),
-    commonjs(),
   ],
 }
